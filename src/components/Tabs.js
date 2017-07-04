@@ -26,7 +26,7 @@ const Tabs = () =>
 <Container>
  <div style={style}>
   <Link to="/For_you">For you |</Link>
-  <Link to="/Homes">Homes |</Link>
+  <Link to="/homes">Homes |</Link>
   <Link to="/Experiences" onClick={()=> <Experiencesinside/>}>Experiences |</Link>
   <Link to="/Places">Places</Link>
  </div>

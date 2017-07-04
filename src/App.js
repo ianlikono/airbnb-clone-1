@@ -6,6 +6,7 @@ import styled from "styled-components";
 import { PageContainer } from "./components/StyledContainers";
 import NavBar from "./components/NavBar";
 import Tabs from "./components/Tabs";
+import Homes from "./components/Homes";
 
 
 
@@ -13,6 +14,7 @@ import Tabs from "./components/Tabs";
 const WelcomeSplash = () =>
   <PageContainer>
     <NavBar />
+    <Tabs/>
     <h2>Welcome to React</h2>
     <p>
       To get started, edit <code>src/App.js</code> and save to reload.
@@ -32,7 +34,7 @@ class App extends Component {
       <Router>
         <div>
           <Route exact path="/" component={WelcomeSplash} />
-          <Route path="/" component={Tabss} />
+          <Route path="/homes" component={Homes} />
         </div>
       </Router>
     );
