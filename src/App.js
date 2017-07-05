@@ -7,6 +7,7 @@ import { PageContainer } from "./components/StyledContainers";
 import NavBar from "./components/NavBar";
 import Tabs from "./components/Tabs";
 import Homes from "./components/Homes";
+import Experiences from "./components/Experiences";
 
 
 
