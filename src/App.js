@@ -35,6 +35,7 @@ class App extends Component {
         <div>
           <Route exact path="/" component={WelcomeSplash} />
           <Route path="/homes" component={Homes} />
+          <Route path="/experiences" component={Experiences} />
         </div>
       </Router>
     );

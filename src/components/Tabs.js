@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Experiencesinside from "./Experiences";
+
 
 const style = {
   display: 'flex',
@@ -25,10 +25,10 @@ const Places = () => <div><h2>Places</h2></div>
 const Tabs = () =>
 <Container>
  <div style={style}>
-  <Link to="/For_you">For you |</Link>
+  <Link to="/for-you">For you |</Link>
   <Link to="/homes">Homes |</Link>
-  <Link to="/Experiences" onClick={()=> <Experiencesinside/>}>Experiences |</Link>
-  <Link to="/Places">Places</Link>
+  <Link to="/experiences">Experiences |</Link>
+  <Link to="/places">Places</Link>
  </div>
 </Container>
 
