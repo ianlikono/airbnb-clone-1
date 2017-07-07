@@ -8,7 +8,7 @@ import NavBar from "./components/NavBar";
 import Tabs from "./components/Tabs";
 import Homes from "./components/Homes";
 import Experiences from "./components/Experiences";
-
+import PlacesBody from "./components/placesBody";
 
 
 
@@ -37,6 +37,7 @@ class App extends Component {
           <Route exact path="/" component={WelcomeSplash} />
           <Route path="/homes" component={Homes} />
           <Route path="/experiences" component={Experiences} />
+          <Route path="/places" component={PlacesBody} />
         </div>
       </Router>
     );
